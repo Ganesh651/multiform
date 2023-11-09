@@ -1,0 +1,25 @@
+.addon-details {
+  padding: 20px;
+  border: 1px solid hsl(206, 94%, 87%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.label-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.selected-addon-details {
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}

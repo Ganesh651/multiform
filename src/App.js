@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import MultiStepForm from './component/MultiStepForm'
+import MultiStepFrom from './components/MultiStepForm'
 import FormContext from './context/FormContext'
 import './App.css'
 
@@ -58,7 +58,7 @@ const App = () => {
         addToSummery,
       }}
     >
-      <MultiStepForm />
+      <MultiStepFrom />
     </FormContext.Provider>
   )
 }
